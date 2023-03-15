@@ -1,9 +1,8 @@
-import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
 import {codeInput} from '@sanity/code-input'
 import {schemaTypes} from './schemas'
 
-export default defineConfig({
+export default {
   name: 'default',
   title: 'dimgray-zebra',
 
@@ -15,4 +14,4 @@ export default defineConfig({
   schema: {
     types: schemaTypes,
   },
-})
+}
